@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @farrux05-ai
 - 👀 I’m interested in Data analytics 
-- 🌱 I’m currently learning Pandas
+- 🌱 I’m currently learning  machine learning
 - 💞️ I’m looking to collaborate on SQL
 - 📫 my email adress, farruxbekvalijonov65@gmail.com
 - 😄 Pronouns: Mr Nobody
