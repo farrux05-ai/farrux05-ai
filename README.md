@@ -1,12 +1,16 @@
-- 👋 Hi, I’m @farrux05-ai
-- 👀 I’m interested in Data analytics 
-- 🌱 I’m currently learning  machine learning
-- 💞️ I’m looking to collaborate on SQL
-- 📫 my email adress, farruxbekvalijonov65@gmail.com
-- 😄 Pronouns: Mr Nobody
-- ⚡ Fun fact: Dreamer
+👋 Hi, I’m Farrux ( @farrux05-ai )
 
-<!---
-farrux05-ai/farrux05-ai is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+I’m an **Analytics Engineer / Data Analyst** who builds **clean, tested, and documented** analytics datasets:
+**raw → staging → marts (facts & dimensions)** for BI and KPI reporting.
+
+- 🔧 **Core skills:** SQL (PostgreSQL/MySQL), dbt (basic), Data Modeling (Star Schema), Python (pandas), Power BI
+- 🎯 **Interested in:** Analytics Engineering, KPI design, data quality, warehouse modeling
+- 🌱 **Currently learning:** dbt best practices, Data modeling
+- 🤝 **Open to collaborate on:** SQL / dbt projects, data modeling, dashboard-ready marts
+- 🧠 **Focus:** turning messy data into reliable business metrics
+- ⚡ **Fun fact:** Dreamer with a planner mindset
+
+📫 **Contact:**  
+- LinkedIn: https://www.linkedin.com/in/farrux-valijonov
+- Telegram: @farruxbekvalijonov
+- Email: farruxbekvalijonov65@gmail.com
