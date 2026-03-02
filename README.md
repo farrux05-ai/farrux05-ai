@@ -21,3 +21,4 @@ Turning raw data into trusted, business-ready datasets.
 ## 🎯 Currently Learning
 - dbt advanced (tests, macros, packages)
 - Airflow for orchestration
+- Cloud technology
