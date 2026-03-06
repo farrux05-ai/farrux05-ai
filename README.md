@@ -16,6 +16,7 @@ Turning raw data into trusted, business-ready datasets.
 - **ae-ecommerce-warehouse** — dbt + Star Schema, raw→staging→marts pipeline
 - **namangan_demography** - dbt + Star Schema, ingest → staging → dimention → mart → dashboard
 - **ae-ecommerce_sla** - dbt + modeling, fact+dimention + repeat GMV
+- **logistics-kpi-analysis** - Built warehouse → carrier → route performance scorecard with benchmark KPIs (cost/unit, cost/kg, delivered_rate, delay_rate, return_rate)
 - **HR-attrition-analysis** — SQL + Python, business insights from HR data
 
 ## 🎯 Currently Learning
