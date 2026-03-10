@@ -13,11 +13,11 @@ Turning raw data into trusted, business-ready datasets.
 | Modeling | Star Schema, Dimensional modeling |
 
 ## 📂 Featured Projects
-- **ae-ecommerce-warehouse** — dbt + Star Schema, raw→staging→marts pipeline
-- **namangan_demography** - dbt + Star Schema, ingest → staging → dimension → mart → dashboard
-- **ae-ecommerce_sla** - dbt + modeling, fact + dimension + repeat GMV
-- **logistics-kpi-analysis** - Built warehouse → carrier → route performance scorecard with benchmark KPIs (cost/unit, cost/kg, delivered_rate, delay_rate, return_rate)
-- **HR-attrition-analysis** — SQL + Python, business insights from HR data
+- **ae-ecommerce-warehouse** — dbt + PostgreSQL analytics warehouse for e-commerce KPIs, funnel, and retention marts
+- **namangan_demography** - dbt-powered demographic warehouse with Streamlit dashboards using Uzbekistan public statistics data
+- **ae-ecommerce_sla** - E-commerce SLA and repeat GMV analysis with dbt models, metrics, and Power BI reporting
+- **logistics-kpi-analysis** - Operational KPI analysis of warehouse, carrier, and route performance
+- **HR-attrition-analysis** — Employee attrition analysis with SQL/Python and business-focused reporting
 
 ### Currently learning
 - Advanced dbt workflows
