@@ -10,7 +10,7 @@ Turning raw data into trusted, business-ready datasets.
 | Databases | PostgreSQL, MySQL |
 |Warehouse | BigQuery |
 | Analytics | Python (pandas), Power BI |
-| Modeling | Star Schema, Data Vault basics |
+| Modeling | Star Schema, Dimensional modeling |
 
 ## 📂 Featured Projects
 - **ae-ecommerce-warehouse** — dbt + Star Schema, raw→staging→marts pipeline
