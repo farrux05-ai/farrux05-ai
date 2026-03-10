@@ -14,8 +14,8 @@ Turning raw data into trusted, business-ready datasets.
 
 ## 📂 Featured Projects
 - **ae-ecommerce-warehouse** — dbt + Star Schema, raw→staging→marts pipeline
-- **namangan_demography** - dbt + Star Schema, ingest → staging → dimention → mart → dashboard
-- **ae-ecommerce_sla** - dbt + modeling, fact+dimention + repeat GMV
+- **namangan_demography** - dbt + Star Schema, ingest → staging → dimension → mart → dashboard
+- **ae-ecommerce_sla** - dbt + modeling, fact + dimension + repeat GMV
 - **logistics-kpi-analysis** - Built warehouse → carrier → route performance scorecard with benchmark KPIs (cost/unit, cost/kg, delivered_rate, delay_rate, return_rate)
 - **HR-attrition-analysis** — SQL + Python, business insights from HR data
 
@@ -23,3 +23,4 @@ Turning raw data into trusted, business-ready datasets.
 - dbt advanced (tests, macros, packages)
 - Airflow for orchestration
 - Cloud technology
+- marts / metric logic
