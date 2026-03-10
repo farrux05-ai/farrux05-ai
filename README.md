@@ -19,8 +19,8 @@ Turning raw data into trusted, business-ready datasets.
 - **logistics-kpi-analysis** - Built warehouse → carrier → route performance scorecard with benchmark KPIs (cost/unit, cost/kg, delivered_rate, delay_rate, return_rate)
 - **HR-attrition-analysis** — SQL + Python, business insights from HR data
 
-## 🎯 Currently Learning
-- dbt advanced (tests, macros, packages)
-- Airflow for orchestration
-- Cloud technology
-- marts / metric logic
+### Currently learning
+- Advanced dbt workflows
+- Better dimensional modeling decisions
+- Clearer metric definitions and analytical marts
+- Production-style project structure
