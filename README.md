@@ -5,7 +5,7 @@
 I specialize in **RevOps analytics** for B2B SaaS — connecting fragmented data from CRM, billing, product analytics, and support into unified pipelines that drive revenue decisions.
 
 📍 Tashkent, Uzbekistan | 🌐 Open to Remote  
-🔗 [LinkedIn](https://linkedin.com/in/farrux-valijonov) | 📧 farrux.valijonov@example.com
+🔗 [LinkedIn](https://linkedin.com/in/farrux-valijonov) | 📧 farruxbekvalijonov65@gmail.com
 
 ---
 
