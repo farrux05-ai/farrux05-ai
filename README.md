@@ -75,9 +75,9 @@ dbt-powered warehouse for e-commerce KPIs, funnel analysis, and cohort retention
 SLA monitoring and repeat GMV analysis with dbt metrics layer and Power BI reporting.  
 **Tech:** dbt · Power BI · Dimensional Modeling
 
-### [🚚 Logistics KPI Analysis](https://github.com/farrux05-ai/logistics-kpi-analysis)
-Operational KPI analysis for warehouse, carrier, and route performance optimization.  
-**Tech:** SQL · Python · Analytics
+### [🚚 dbt macros for Revops ](https://github.com/farrux05-ai/dbt-revops-macros)
+This package centralizes repeated, error-prone business logic across analytics models, ensuring consistency in RevOps transformations.
+**Tech:** SQL · Jinja · Revops
 
 ---
 
