@@ -45,20 +45,21 @@ I specialize in **RevOps analytics** for B2B SaaS — bridging the gap between G
 
 ## 🌟 Featured Work
 
-### [📈 B2B SaaS RevOps Analytics Pipeline](https://github.com/farrux05-ai/b2b-saas-revops)
-An end-to-end Modern Data Stack implementation designed specifically for resolving B2B SaaS departmental silos.
+### [📈 B2B SaaS RevOps Analytics Pipeline](https://github.com/farrux05-ai/lead-to-account)
+An end-to-end Modern Data Stack implementation designed to unify Marketing (GA4, Ads) and CRM (HubSpot) data into a single source of truth.
 
 **The Business Problem:**  
-Sales checks Stripe manually for payment status. CS looks at Mixpanel for engagement. Finance calculates MRR in spreadsheets. No one agrees on the numbers.
+Marketing spend is tracked in platform dashboards while revenue lives in the CRM. There is no automated way to calculate true ROI per account or track lead velocity through the sales funnel.
 
 **The Engineering Solution:**  
-Extract: `HubSpot + Stripe + Mixpanel + Intercom` → Transform: `dbt (Dimensional Modeling + SCD2)` → Serve: `Streamlit / BI`
+Extract: `HubSpot + Google/Meta/LinkedIn Ads + GA4` → Transform: `dbt (Identity Resolution + Full-Funnel Modeling)` → Orchestrate: `Dagster` → Serve: `Streamlit`
 
 **Business Impact:**
-- ✅ Created a unified Single Source of Truth for **10,000+ accounts**.
-- ✅ Automated complex MRR movement classifications (Expansion, Contraction, Churn, New).
-- ✅ Secured pipeline reliability through **167+ automated data quality tests**.
-- ✅ Tracked historical account health changes using dbt snapshots (SCD Type 2).
+- ✅ Established a **Full-Funnel** view from anonymous sessions to Closed-Won revenue.
+- ✅ Resolved Lead-to-Account mapping for automated ABM attribution.
+- ✅ Enforced data trust through **56+ automated quality tests** and detailed dbt documentation.
+- ✅ Optimized performance using DuckDB for local-first, high-speed analytical processing.
+
 
 ### [🛠️ dbt Macros for RevOps (Open Source)](https://github.com/farrux05-ai/dbt-revops-macros)
 A specialized macro package for B2B SaaS Revenue Operations that enforces DRY (Don't Repeat Yourself) principles. Centralizes complex, error-prone business logic (e.g., standardizing CRM stages, classifying MRR movements, pro-rating subscription terms) into reusable, tested components.
