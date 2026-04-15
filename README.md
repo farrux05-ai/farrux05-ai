@@ -43,36 +43,40 @@ I specialize in **RevOps analytics** for B2B SaaS — bridging the gap between G
 
 ---
 
-## 🌟 Featured Work
+## 🌟 Featured Work (RevOps Specialization)
 
-### [📈 B2B SaaS RevOps Analytics Pipeline](https://github.com/farrux05-ai/lead-to-account)
-An end-to-end Modern Data Stack implementation designed to unify Marketing (GA4, Ads) and CRM (HubSpot) data into a single source of truth.
+### [📈 B2B SaaS RevOps Analytics Warehouse](https://github.com/farrux05-ai/b2b-saas-revops)
+An end-to-end Modern Data Stack implementation designed specifically for resolving B2B SaaS departmental silos and mapping the full revenue lifecycle.
 
 **The Business Problem:**  
-Marketing spend is tracked in platform dashboards while revenue lives in the CRM. There is no automated way to calculate true ROI per account or track lead velocity through the sales funnel.
+Sales checks Stripe manually for payment status. CS looks at Mixpanel for engagement. Finance calculates MRR in spreadsheets. No one agrees on the numbers.
 
 **The Engineering Solution:**  
-Extract: `HubSpot + Google/Meta/LinkedIn Ads + GA4` → Transform: `dbt (Identity Resolution + Full-Funnel Modeling)` → Orchestrate: `Dagster` → Serve: `Streamlit`
+Extract: `HubSpot + Stripe + Mixpanel + Intercom` → Transform: `dbt (Dimensional Modeling + SCD2)` → Serve: `Streamlit / BI`
 
 **Business Impact:**
-- ✅ Established a **Full-Funnel** view from anonymous sessions to Closed-Won revenue.
-- ✅ Resolved Lead-to-Account mapping for automated ABM attribution.
-- ✅ Enforced data trust through **56+ automated quality tests** and detailed dbt documentation.
-- ✅ Optimized performance using DuckDB for local-first, high-speed analytical processing.
-
+- ✅ Created a unified Single Source of Truth for **10,000+ accounts**.
+- ✅ Automated complex MRR movement classifications (Expansion, Contraction, Churn, New).
+- ✅ Secured pipeline reliability through **167+ automated data quality tests**.
+- ✅ Tracked historical account health changes using dbt snapshots (SCD Type 2).
 
 ### [🛠️ dbt Macros for RevOps (Open Source)](https://github.com/farrux05-ai/dbt-revops-macros)
-A specialized macro package for B2B SaaS Revenue Operations that enforces DRY (Don't Repeat Yourself) principles. Centralizes complex, error-prone business logic (e.g., standardizing CRM stages, classifying MRR movements, pro-rating subscription terms) into reusable, tested components.
+A specialized macro package for B2B SaaS Revenue Operations that enforces DRY (Don't Repeat Yourself) principles. Centralizes complex, error-prone business logic (e.g., standardizing CRM stages, classifying MRR movements) into reusable components.
+
+### [📈 Full-Funnel Marketing & Pipeline Warehouse](https://github.com/farrux05-ai/lead-to-account)
+A specialized pipeline unifying Marketing (GA4, Ads) and CRM (HubSpot) data to track the journey from anonymous sessions to Closed-Won revenue.
+
+**Business Impact:**
+- ✅ Resolved Lead-to-Account mapping for automated ABM attribution.
+- ✅ Established a **Full-Funnel** view for ROI calculation across every acquisition channel.
+- ✅ High reliability with **56+ automated quality tests** and local-first performance via **DuckDB**.
 
 ---
 
 ## 📁 Additional Projects
 
 ### [🛒 E-commerce Analytics Warehouse](https://github.com/farrux05-ai/ae-ecommerce-warehouse)
-A scalable dbt-powered warehouse for e-commerce focusing on core KPIs, drop-off funnel analysis, and monthly cohort retention algorithms. *(Tech: dbt, PostgreSQL, Star Schema)*
-
-### [📦 Operational SLA & Repeat Purchase Analysis](https://github.com/farrux05-ai/ae-ecommerce_sla)
-Delivery SLA monitoring and repeat GMV generation analysis to optimize logistics and customer lifetime value. *(Tech: dbt, Power BI, Dimensional Modeling)*
+A scalable dbt-powered warehouse for e-commerce focusing on core KPIs and cohort retention. *(Tech: dbt, PostgreSQL)*
 
 ---
 
@@ -87,10 +91,9 @@ Delivery SLA monitoring and repeat GMV generation analysis to optimize logistics
 
 ## 🎓 Currently Exploring
 
-- **Advanced dbt Deployments:** CI/CD triggers, Slim CI for cost-efficient warehouse runs.
-- **Semantic Layer Integration:** Abstracting metric definitions using dbt Semantic Layer / MetricFlow.
-- **Data Activation:** Connecting warehouses back to business apps (Reverse ETL) to empower frontline sales reps.
-- **Data Mesh for Multi-product SaaS:** Decentralized domain-driven data modeling.
+- **Advanced dbt Deployments:** CI/CD triggers, Slim CI for cost-efficient runs.
+- **Semantic Layer Integration:** Abstracting metric definitions using dbt Semantic Layer.
+- **Data Activation:** Connecting warehouses back to business apps (Reverse ETL).
 
 ---
 
@@ -98,12 +101,7 @@ Delivery SLA monitoring and repeat GMV generation analysis to optimize logistics
 
 **Role:** RevOps Analytics Engineer / Data Engineer (GTM / Revenue Focus)  
 **Industry:** B2B SaaS, FinTech, E-commerce  
-**Location:** Remote-first (timezone: UTC+5)
-
-**The intersection where I thrive:**
-- Designing robust infrastructure that sales, marketing, and CS teams completely trust.
-- Translating chaotic API payloads and messy CRM fields into pristine dimension tables and fact models.
-- Transforming abstract Go-To-Market questions into measurable, standardized data products.
+**Location:** Remote (UTC+5)
 
 ---
 
@@ -118,7 +116,5 @@ Delivery SLA monitoring and repeat GMV generation analysis to optimize logistics
 <div align="center">
   
 **"Good data infrastructure is invisible. Great data infrastructure drives business execution."**
-
-⭐ *If you find my approach to RevOps analytics interesting, feel free to explore and star my repositories!*
 
 </div>
